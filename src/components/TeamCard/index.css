@@ -1,0 +1,44 @@
+.teamcard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: #475569;
+  border-radius: 10px;
+  margin: 5px;
+  height: 75px;
+}
+@media screen and (min-width: 768px) {
+  .teamcard {
+    width: 400px;
+    height: 90px;
+  }
+}
+.logo_card {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .logo_card {
+    height: 80px;
+    width: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.heading_card {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading_card {
+    font-size: 25px;
+    padding-right: 10px;
+  }
+}
